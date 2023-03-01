@@ -1,0 +1,2 @@
+# obfuscator-list
+Shit incuming
