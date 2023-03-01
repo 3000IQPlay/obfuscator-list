@@ -1,5 +1,5 @@
 # obfuscator-list
-* [Ackerun](https://github.com/YumeGod/AckerunObfOpenSource) - FOSS. Light obfuscator that has some simple features with nothing unknown in it.
+* [Ackerun](https://github.com/YumeGod/AckerunObfOpenSource) - FOSS. Light/Heavy obfuscator depanding on your cfg. Has some basic and simple features with nothing unknown in it.
 * [Allatori](http://www.allatori.com/) - Commericial. Somewhat popular choice in industry.
 * [Avaj](https://github.com/cg-dot/avaj) - FOSS. Has a nice way of generating decryption subroutines on string constants. Also has some CFG flattening which is always nice to see.
 * [BisGuard](http://www.bisguard.com/) - Commercial. Relies entirely on class encryption (last time I checked, at least) so protection has quite a bit of room for improvement.
