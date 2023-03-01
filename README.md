@@ -3,6 +3,7 @@
 * [Allatori](http://www.allatori.com/) - Commericial. Somewhat popular choice in industry.
 * [Avaj](https://github.com/cg-dot/avaj) - FOSS. Has a nice way of generating decryption subroutines on string constants. Also has some CFG flattening which is always nice to see.
 * [BisGuard](http://www.bisguard.com/) - Commercial. Relies entirely on class encryption (last time I checked, at least) so protection has quite a bit of room for improvement.
+* [Black](https://github.com/CodingGay/BlackObfuscator) - FOSS. Black Obfuscator is an obfuscator for Android APK DexFile, it can help developer to protect source code by control flow flattening, and make it difficult to analyze the actual program control flow.
 * [Bozar](https://github.com/vimasig/Bozar) - Points for FOSS. Has some cheap tricks that I have seen being used in the Minecraft community. Can be deobfuscated using [Narumii](https://github.com/narumii/Deobfuscator).
 * [Branchlock](https://branchlock.net/) - Commercial. Shows up a bit in the Minecraft community. Can be deobfuscated using [JavaDeobfuscator](https://github.com/java-deobfuscator/deobfuscator).
 * [Caesium](https://github.com/sim0n/Caesium) - FOSS. Has a transformer that implements a well-known HTML injection into any Java reverse-engineering tool that parses HTML tags. Shows alot in Minecraft community. Can be deobfuscated using [Narumii](https://github.com/narumii/Deobfuscator)/[JavaDeobfuscator](https://github.com/java-deobfuscator/deobfuscator). 
