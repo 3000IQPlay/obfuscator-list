@@ -1,5 +1,5 @@
 # obfuscator-list
-* [Ackerun](https://github.com/YumeGod/AckerunObfOpenSource) - FOSS. Lightweight/Heavy obfuscator depanding on your config. Has some basic and simple features with just different names for them.
+* [AckerRun](https://github.com/YumeGod/AckerunObfOpenSource) - FOSS. Lightweight/Heavy obfuscator depanding on your config. Has some interesting features that not every other obfuscator has. Looks like XenonGuard skid but I can't confirm that.
 * [Allatori](http://www.allatori.com/) - Commericial. Somewhat popular choice in industry.
 * [Ambien](https://github.com/iiiiiiiris/Ambien) - FOSS. Obfuscator that is not getting actively developed anymore. Has some cool packaging features mainly targeting Recaf 2x with a great succeed since their RedHerring feature adds a fake jar before the real one. Most RE tools don't read backwards like the JVM, so they will read the fake jar. Also has a decent Crasher transformer that confuses various decompilers & other reverse engineering tools. Still contain some bugs/issue to this day.
 * [Avaj](https://github.com/cg-dot/avaj) - FOSS. Has a nice way of generating decryption subroutines on string constants. Also has some CFG flattening which is always nice to see.
