@@ -23,7 +23,7 @@
 * [DashO](https://www.preemptive.com/products/dasho/overview) - Commercial. Shows up a bit in industry and has some interesting ideas (albeit probably outdated) in flow obfuscation. Can be deobfuscated using [JavaDeobfuscator](https://github.com/java-deobfuscator/deobfuscator).
 * [DexGuard](https://www.guardsquare.com/dexguard) - Commercial. Mainly used for obfuscating Android apps. Never saw any samples. Can be deobfuscated using [JavaDeobfuscator](https://github.com/java-deobfuscator/deobfuscator).
 * [dProtect](https://github.com/open-obfuscator/dProtect) - FOSS. dProtect is build on [ProGuard](https://github.com/Guardsquare/proguard) with additional flow-obfuscation, mixed-boolean-arithmetics-transformations and string-encryption. Definitely worth a try.
-* 
+* ---
 * [Eskid](https://github.com/PlutoSolutions/EskidRewrite) - Commercial. Decent obfuscator based on [HsGuard](https://github.com/3000IQPlay/HsGuard-Obfuscator) and [Scuti](https://github.com/netindev/scuti/tree/master). Shows alot in Minecraft Community. Could be possibly deobfuscated using [AckeRun's](https://github.com/AckerRun1337) Eskid deobfuscator trasnformer. Got cracked by [PlutoSolution](https://github.com/PlutoSolutions).
 * ---
 * [GOTO](https://github.com/Dimples1337/goto-java-obfuscator) / [GOTO](https://github.com/KgDW/GOTOObfuscator) - FOSS. An obfuscator made by chinese people written in Kotlin. Has interesting features but they are kinda broken.
