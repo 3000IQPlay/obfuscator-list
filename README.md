@@ -49,3 +49,6 @@
 * [zProtect](https://github.com/JessSystemV/zProtect) - [Discord](https://discord.com/invite/dnGKGuwvGH) - Commercial. Stupid Binscure skid. Not recomended for use. SRC of it has been leaked and their obfuscation could be possibly deobfuscated using [darklols](https://github.com/darklol9) zProtect deobfuscator or using Binscure deobfuscator to semi deobfuscate it.
 * [ZKM (Zelix Klass Master)](https://www.zelix.com/) - Commericial. Zelix KlassMaster Obfuscator is known for its robust obfuscation techniques and strong obfuscation capabilities and is used by many companies to protect their Java applications from reverse engineering and tampering. Currently the best obfuscator for Java right now and always drops a insane update to patch stuff whenever there are public deobfuscation transformers.
 * [Zortfuscator (Discord)](https://discord.gg/A3wsGKWGSc) - Commericial. Dead, not so known obfuscator. Can tell that it has good obfuscation techniques from the look at the samples they have on their discord server and some small sample in a video made by [akita](https://www.youtube.com/watch?v=0B9SPdt75JQ).
+
+# Obfuscation Branchmarks:
+**https://github.com/huzpsb/JavaObfuscatorTest**
