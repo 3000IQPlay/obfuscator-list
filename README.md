@@ -65,7 +65,6 @@ A comprehensive list of Java obfuscators, including both free/open-source and co
 | [Ob](https://github.com/ShivamMistry/Ob/) | Older obfuscator from 2011 with string encryption, branching, and a renamer. |
 | [Obsidian](https://github.com/obsidian-java/obsidian) | Control flow obfuscator that looks like it's being worked on. Looks interesting and definitely unique compared to what you might see normally. |
 | [ObzucureVM](https://github.com/HoverCatz/ObzcureVirtualMachine) | Java Virtual Machine made in Java. |
-| [Popuskator](https://github.com/erxson/Popuskator) | Obfuscator based of Ambien. 100% Skidded, nothing custom. |
 | [Radon](https://github.com/ItzSomebody/radon) | Abandoned experimental obfuscator by ItsSomebody (The person that made some of the parts of this Obfuscator list). Radon is an open-source free obfuscator. It has a UI that's visually similar to Skidfuscator/ProGuard and it is very intuitive to use. Easy to deobfuscate using [JavaDeobfuscator](https://github.com/java-deobfuscator/deobfuscator). |
 | [Reflow](https://github.com/PolyRocketMatt/Reflow) | A Java Bytecode Obfuscator. |
 | [Retype](https://github.com/JTrixEx/Retype) | A Java Bytecode Obfuscator. |
