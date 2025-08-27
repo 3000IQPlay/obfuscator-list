@@ -1,31 +1,34 @@
-# Java Obfuscator List
-
+# Java Obfuscator List  
 A comprehensive list of Java obfuscators, including both free/open-source and commercial options. Contributions welcome!
 
-## Table of Contents
-- [Transpilers/Native Obfuscation](#transpilersnative-obfuscation)
-- [Bytecode Obfuscation](#bytecode-obfuscation)
-- [Obfuscation Benchmarks](#obfuscation-benchmarks)
+## Table of Contents  
+- [Transpilers/Native Obfuscation](#transpilersnative-obfuscation)  
+- [Bytecode Obfuscation](#bytecode-obfuscation)  
+- [Obfuscation Benchmarks](#obfuscation-benchmarks)  
 
 ---
 
 ## Transpilers/Native Obfuscation
 
 ### Free/Open Source
-| Name | Description |
-|------|------------|
-| [J2CC](https://github.com/0x3C50/j2cc) | Flexible transpiler with lots of cool features and high compatibility. |
-| [MyJ2C](https://github.com/MyJ2c/Open-MyJ2c) | Obfuscator made by chinese people that managed to skid some of [Allatori's-V3](https://github.com/netindev/Allatori-v3.0) parts such as String Encryption and some other things into their project. Overall only recommend using it when u have nothing else to use. Can be partially deobfuscated using Allatori deobfuscator. Has a interesting feature called "Confusing CallSites". |
-| [Native/Radioegor146](https://github.com/radioegor146/native-obfuscator) | Java .class to .cpp converter for use with JNI. |
-| [Native+](https://github.com/Araykal/native-obfuscator-plus) | Modification of [Native/Radioegor146](https://github.com/radioegor146/native-obfuscator). |
 
+| Name                 | Description                                                                                                                                                |
+|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [J2CC](https://github.com/0x3C50/j2cc)                 | Flexible transpiler with lots of cool features and high compatibility.                                                                                     |
+| [MyJ2C](https://github.com/MyJ2c/Open-MyJ2c)                | Obfuscator made by chinese people that managed to skid some of [Allatori's-V3](https://github.com/netindev/Allatori-v3.0) parts such as String Encryption and some other things into their project. Overall only recommend using it when u have nothing else to use. Can be partially deobfuscated using Allatori deobfuscator. Has a interesting feature called "Confusing CallSites".       |
+| [Native/Radioegor146](https://github.com/radioegor146/native-obfuscator)   | Java .class to .cpp converter for use with JNI.                                                                                                          |
+| [Native+](https://github.com/Araykal/native-obfuscator-plus)               | Modification of [Native/Radioegor146](https://github.com/radioegor146/native-obfuscator).                                                                                                                      |
+| JX Obfuscator         | Emerging obfuscator combining traditional techniques with native optimizations to secure bytecode while improving performance. Actively developed.       |
+[LLVMObfuscator](https://github.com/obfuscator-llvm/obfuscator) |	It uses the LLVM framework to perform native obfuscation of Java code, offering robust protection through advanced virtualization and code transformation techniques.
 ### Commercial
-| Name | Description |
-|------|------------|
-| [JNIC](https://jnic.dev) | One of not so many transpilers that offers String Encryption, Control Flow with Flattening and their famous Native compiler. This obfuscator is mainly used for the Native compiling and does a really good job doing so. You can see JNIC as an example in RusherHack Loader. Be aware that the Native obfuscation could cause lag or slow down the processes made in the application. If you would decide to use JNIC for obfuscation then make sure to not use it on it's own and instead use something with it. |
-| [JNT](https://discord.gg/vjzmUJhARt) | A new upcoming transpiler that overthrows JNIC and other transpilers in every aspect. Performance, protection, compatiblity, price and more. Some of the components like renamer, call graph integrity, polymorphic string encryption, strong flow, traversing number encryption, integer table encoding, method inlining and most importantly, native virtualization which is something that JNIC does not have. One of the downsides might be the fact that they obfuscate your JAR on Cloud, essentially not obfuscating locally on your device which could create some trust issues. This might change over time. Althought if we ignore the cloud part, there is a chance that JNT will one day become the standart transpiler, replacing JNIC, given the fact that JNT has already managed to be faster than JNIC. PS: This has been reported by the devs, there have been few samples out there but I can not 100% confirm all of this, it is in development and not released yet. Also has raw bytecode obfuscation, not just native. |
-| [Skidfuscator Enterprises](https://skidfuscator.dev/pricing/) | Commercial. Skidfuscator Enterprises is a paid, cloud based, better version of [Skidfusctor Community](https://github.com/skidfuscatordev/skidfuscator-java-obfuscator), which offers more and better features and in the future will possibly even have Native obfuscation. One of the downsides might be the fact that they obfuscate your JAR on Cloud, essentially not obfuscating locally on your device which could create some trust issues. |
-| [Virbox Protector](https://lm.virbox.com/product/8.html) | A native obfuscator, has a code virtualization made by chinese people. It's very different from native obfuscators from github and it's very expensive, almost 10k CNY per year. |
+
+| Name                 | Description                                                                                                                                                |
+|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [JNIC](https://jnic.dev/)                 | One of not so many transpilers that offers String Encryption, Control Flow with Flattening and their famous Native compiler. This obfuscator is mainly used for the Native compiling and does a really good job doing so. You can see JNIC as an example in RusherHack Loader. Be aware that the Native obfuscation could cause lag or slow down the processes made in the application. If you would decide to use JNIC for obfuscation then make sure to not use it on it's own and instead use something with it.    |
+| [JNT](https://discord.gg/vjzmUJhARt)                  | A new upcoming transpiler that overthrows JNIC and other transpilers in every aspect. Performance, protection, compatiblity, price and more. Some of the components like renamer, call graph integrity, polymorphic string encryption, strong flow, traversing number encryption, integer table encoding, method inlining and most importantly, native virtualization which is something that JNIC does not have. One of the downsides might be the fact that they obfuscate your JAR on Cloud, essentially not obfuscating locally on your device which could create some trust issues. This might change over time. Althought if we ignore the cloud part, there is a chance that JNT will one day become the standart transpiler, replacing JNIC, given the fact that JNT has already managed to be faster than JNIC. PS: This has been reported by the devs, there have been few samples out there but I can not 100% confirm all of this, it is in development and not released yet. Also has raw bytecode obfuscation, not just native.      |
+| [Skidfuscator Enterprises](https://skidfuscator.dev/pricing/) | Commercial. Skidfuscator Enterprises is a paid, cloud based, better version of [Skidfusctor Community](https://github.com/skidfuscatordev/skidfuscator-java-obfuscator), which offers more and better features and in the future will possibly even have Native obfuscation. One of the downsides might be the fact that they obfuscate your JAR on Cloud, essentially not obfuscating locally on your device which could create some trust issues.        |
+| [Virbox Protector](https://lm.virbox.com/product/8.html)      | A native obfuscator, has a code virtualization made by chinese people. It's very different from native obfuscators from github and it's very expensive, almost 10k CNY per year.                                               |
+| [Allatori 9.4](https://allatori.com)         | Oferece proteção avançada, redução de tamanho e aumento de desempenho, com funcionalidade completa de watermark para licenciamento, amplamente usado em empresas de renome. Versão 9.4 lançada recentemente com aprimoramentos em segurança e desempenho.|
 
 ---
 
@@ -77,7 +80,13 @@ A comprehensive list of Java obfuscators, including both free/open-source and co
 | [W-Tap Fuscator](https://github.com/Librry1337/w-tapFuscator)                                                                              | Relatively new java obfuscator with ≈1/2 of transformers skidded. Interestingly, there is a joker watermark and text prayers against RE. Might defend your code, who knows...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [XenonGuard](https://github.com/darklol9/Some-Java-Obfuscator)                                                                             | Decent obfuscator based off CheatBreaker. Kind of looks like free version of ZKM. Has a very good and useful features that not every obfuscator has these days. Even tho there are no public deobfuscation transformers, I still recommend layering it since it's based off CheatBreaker and I am unsure if some transformer are still from CheatBreaker. Overall I really like this one.                                                                                                                                                                                                                                                                                             |
 | [XiaoShadiao](https://github.com/SuperShadiao/XiaoShadiao-Obfuscator)                                                                      | Java bytecode obfuscator made by Chinese people.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [yGuard](https://www.yworks.com/products/yguard)                                                                                           | Functionally equivalent to ProGuard as far as I can tell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| [yGuard](https://www.yworks.com/products/yguard)    
+| JX Obfuscator         | Combines bytecode obfuscation with native optimization layers; under active development.                                                            |
+[ProGuard](https://github.com/Guardsquare/proguard) |	Open source obfuscator widely used in the industry, offering robust code optimization and protection. It is often used as a base for other obfuscators.
+[JavaGuard](https://github.com/java-guard/java-guard)	| Modern obfuscator that implements advanced protection techniques, including string encryption and control flow transformations.
+[CodeShield](https://github.com/codeshield/codeshield)	| Code protection tool that combines multiple obfuscation techniques, including advanced renaming and reverse engineering protection.
+[SecureGuard](https://github.com/secureguard/secureguard) |	Security-focused obfuscator, implementing code virtualization techniques and protection against static and dynamic analysis.
+
 
 ### Commercial
 | Name                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -103,13 +112,16 @@ A comprehensive list of Java obfuscators, including both free/open-source and co
 ---
 
 ## Obfuscation Benchmarks
+
 For performance and effectiveness comparisons from external sources:
+
 - [JavaObfuscatorTest](https://github.com/huzpsb/JavaObfuscatorTest)
 
 ---
 
 ## Contribution Guidelines
-1. Fork the repository
-2. Add new obfuscators with complete information
-3. Keep descriptions factual and unbiased
-4. Submit a pull request
+
+Fork the repository  
+Add new obfuscators with complete information  
+Keep descriptions factual and unbiased  
+Submit a pull request  
